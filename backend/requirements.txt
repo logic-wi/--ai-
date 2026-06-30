@@ -1,0 +1,26 @@
+# 后端依赖
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg2-binary==2.9.10
+python-dotenv==1.0.1
+python-multipart==0.0.19
+pydantic==2.10.3
+pydantic-settings==2.7.0
+asyncpg==0.30.0
+
+# LLM & Embedding
+openai>=2.0.0
+
+# 向量数据库
+chromadb>=1.0.0
+
+# 文档解析
+pdfplumber>=0.11.0
+python-pptx>=1.0.0
+python-docx>=1.0.0
+
+# HTTP 客户端（内部测试用）
+httpx>=0.28.0
+requests>=2.32.0
