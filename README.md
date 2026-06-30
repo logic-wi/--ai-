@@ -76,7 +76,7 @@ class/
 ### 1. 克隆项目
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/logic-wi/--ai-.git
 cd class
 ```
 
